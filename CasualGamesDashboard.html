@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Casual Games</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="icon" type="image/x-icon" href="favicon-16x16.png">
+</head>
+<body style="background-color: rgb(36, 44, 58);">
+    <script src="script.js"></script>
+
+    <div style="float: right;">
+        <label class="switch">
+            <input type="checkbox" id="blankToggle">
+            <span class="slider round right"></span>
+        </label>
+        <div class="text">Open games in another tab</div>
+    </div>
+
+    <h1>Local Games</h1><hr>
+
+    <button class="gameButton" onclick="goToGame('dino')"><img class="gameImage" src="Games/dino.jpg"></button>
+    <button class="gameButton" onclick="goToGame('tetris')"><img class="gameImage" src="Games/tetris.webp"></button>
+
+    <h1>Webs</h1><hr>
+
+    <button class="gameButton" onclick="goToWeb('https:/\/dinoswords.gg')"><img class="gameImage" src="Games/dinogg.jpg"></button>
+    <button class="gameButton" onclick="goToWeb('https:/\/tetr.io')"><img class="gameImage" src="Games/tetrio.jpg"></button>
+    <button class="gameButton" onclick="goToWeb('https:/\/minesweeper.online')"><img class="gameImage" src="Games/mineswepeer.jpg"></button>
+    <button class="gameButton" onclick="goToWeb('https:/\/jklm.fun')"><img class="gameImage" src="Games/jklm.jpg"></button>
+</body>
+</html>
